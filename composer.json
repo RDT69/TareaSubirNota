@@ -1,0 +1,15 @@
+{
+    "name": "jose/tarea-subir-nota",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Jose\\TareaSubirNota\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jose Manuel"
+        }
+    ],
+    "require": {}
+}
