@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telepizza</title>
+    <link rel="icon" sizes="16x16" href="img\favicon-16x16.png"/>
+    <link rel="stylesheet" href="css/telepizza.css">
+   
+</head>
+
+<body>
+    <header>
+    <div id="logo">
+        <img src="img\LogoTelepizza.png">
+    </div>
+</header>
+    <div id="message"></div>
+    <div id="contenedor">
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nombre</th>
+                    <th>Ingredientes</th>
+                    <th>Precio</th>
+                    <th colspan="2"></th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+            <caption>Listado de Pizzas</caption>
+        </table>
+    </div>
+    <div id="form">
+        <h2>Datos de la Pizza Seleccionada</h2>
+        <div id="pizza"></div>
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" id="nombre"><br>
+        <label for="precio">Precio</label>
+        <input type="number" name="precio" id="precio"><br>
+        <label for="ingredientes">Ingredientes</label>
+        <input type="text" name="ingredientes" id="ingredientes"><br>
+        <button onclick="crearPizza();">Crear</button>
+        <input type="hidden" id="id">
+        <button onclick="modificarPizza()">Modificar</button>
+    </div>
+    </div>
+    </div>
+    <script src="js/telepizza.js" defer></script>
+</body> 
+
+</html>

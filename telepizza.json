@@ -1,54 +1,62 @@
-{
-    "PIZZAS": [
-      {
-        "id": 1,
-        "nombre": "Barbacoa",
-        "ingredientes": "Salsa barbacoa, ternera, bacon, maíz y cebolla"
-      },
-      {
-        "id": 2,
-        "nombre": "Carbonara",
-        "ingredientes": "Salsa carbonara, bacon, cebolla y champiñones"
-      },
-      {
-        "id": 3,
-        "nombre": "4 Quesos",
-        "ingredientes": "Mozzarella, cheddar, emmental y gorgonzola"
-      },
-      {
-        "id": 4,
-        "nombre": "Hawaiana",
-        "ingredientes": "Salsa de tomate, jamón, piña y bacon"
-      },
-      {
-        "id": 5,
-        "nombre": "Margarita",
-        "ingredientes": "Salsa de tomate y mozzarella"
-      },
-      {
-        "id": 6,
-        "nombre": "Campesina",
-        "ingredientes": "Salsa de tomate, chorizo, pimiento verde, cebolla y huevo"
-      },
-      {
-        "id": 7,
-        "nombre": "Barbacoa Extra de Ternera",
-        "ingredientes": "Doble de salsa barbacoa, doble de ternera, bacon, maíz y cebolla"
-      },
-      {
-        "id": 8,
-        "nombre": "Crispy Bacon",
-        "ingredientes": "Salsa de tomate, mozzarella, bacon crispy, cebolla y salsa BBQ"
-      },
-      {
-        "id": 9,
-        "nombre": "Cuarto de Libra",
-        "ingredientes": "Salsa de tomate, queso, carne vacuna, pepinillos, cebolla y mostaza"
-      },
-      {
-        "id": 10,
-        "nombre": "Mediterránea",
-        "ingredientes": "Salsa de tomate, mozzarella, atún, cebolla, tomate natural, aceitunas y alcaparras"
-      }
-    ]
-  }
+[
+    {
+      "id": 1,
+      "nombre": "Barbacoa",
+      "ingredientes": "Salsa barbacoa, ternera, bacon, maíz y cebolla",
+      "precio": 10.99
+    },
+    {
+      "id": 2,
+      "nombre": "Carbonara",
+      "ingredientes": "Salsa carbonara, bacon, cebolla y champiñones",
+      "precio": 11.99
+    },
+    {
+      "id": 3,
+      "nombre": "4 Quesos",
+      "ingredientes": "Mozzarella, cheddar, emmental y gorgonzola",
+      "precio": 9.99
+    },
+    {
+      "id": 4,
+      "nombre": "Hawaiana",
+      "ingredientes": "Salsa de tomate, jamón, piña y bacon",
+      "precio": 12.50
+    },
+    {
+      "id": 5,
+      "nombre": "Margarita",
+      "ingredientes": "Salsa de tomate y mozzarella",
+      "precio": 8.99
+    },
+    {
+      "id": 6,
+      "nombre": "Campesina",
+      "ingredientes": "Salsa de tomate, chorizo, pimiento verde, cebolla y huevo",
+      "precio": 10.50
+    },
+    {
+      "id": 7,
+      "nombre": "Barbacoa Extra de Ternera",
+      "ingredientes": "Doble de salsa barbacoa, doble de ternera, bacon, maíz y cebolla",
+      "precio": 13.99
+    },
+    {
+      "id": 8,
+      "nombre": "Crispy Bacon",
+      "ingredientes": "Salsa de tomate, mozzarella, bacon crispy, cebolla y salsa BBQ",
+      "precio": 11.50
+    },
+    {
+      "id": 9,
+      "nombre": "Cuarto de Libra",
+      "ingredientes": "Salsa de tomate, queso, carne vacuna, pepinillos, cebolla y mostaza",
+      "precio": 12.99
+    },
+    {
+      "id": 10,
+      "nombre": "Mediterránea",
+      "ingredientes": "Salsa de tomate, mozzarella, atún, cebolla, tomate natural, aceitunas y alcaparras",
+      "precio": 11.99 
+    }
+  ]

@@ -1,0 +1,61 @@
+table {
+    
+    border-collapse: collapse;
+    border: 3px solid white;
+}
+
+table thead {
+    background-color: red;
+    color: white;
+    ;
+}
+
+td, th {
+    padding: 5px;
+    
+    
+}
+
+
+table tbody tr:nth-child(odd) {
+    background-color:white;
+}
+
+table caption {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: black;
+}
+
+#contenedor {
+    align-items: center;
+    justify-content: center;
+    display: flex; 
+    margin-top: 10px;
+    margin-bottom: 5px;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 4em;
+}
+
+#logo{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    justify-content: center;
+    display: flex; 
+}
+
+#form{
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+body{
+    background-color: lightcoral;
+}
+
+
+
+
