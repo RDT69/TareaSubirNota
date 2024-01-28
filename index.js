@@ -7,23 +7,18 @@ const consuntable_params= ['nombre', 'ingredientes', 'precio']
 const PORT = 3000;
 const PIZZAS = require('./telepizza');
 
-
 app.use(cors());
 app.use(morgan('dev'));
 app.use (express.json());
 app.use(express.static('public'));
 
-
-
 app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`)
 });
 
-
 app.get('/', (req, res) => {
     res.send("telepizza");
 });
-
 
 app.get('/api/telepizza', (req, res) => {
     if (req.query.ingredientes) {

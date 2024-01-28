@@ -1,0 +1,137 @@
+{
+    "info": {
+        "_postman_id": "4e2f6e3d-6b5b-4f6b-8e6e-4e2f6e3d6b5b",
+        "name": "Telepizza",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "Telepizza ver Listado",
+            "request": {
+                "method": "POST",
+                "header": [],
+                "url": {
+                    "raw": "{{host}}/api/telepizza",
+                        "host": [
+                            "{{host}}"
+                        ],
+                        "path": [
+                            "api",
+                            "telepizza"
+                            ]
+                    }
+                },
+                "response": []
+        },
+        {
+            "name": "Telepizza ver pizza por id",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "{{host}}/api/telepizza/1",
+                    "host": [
+                            "{{host}}"
+                    ],
+                    "path": [
+                            "api",
+                            "telepizza",
+                            "1"
+                    ]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "Modificar Pizza",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 3,\r\n  \"nombre\": \"Mediterránea\",\r\n  \"ingredientes\": \"Salsa de tomate, mozzarella, atün, cebolla, tomate natural, aceitunas y alcaparras\",\r\n  \"precio\": 11.99 \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{host}}/api/telepizza/1",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"telepizza",
+						"1"
+					]
+				}
+			},
+			"response": []  
+        },
+        {
+            "name": "Telepizza crear pizza",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json",
+                        "Type": "text",
+                        "disabled": true
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\r\n  \"nombre\": \"Mediterránea\",\r\n  \"ingredientes\": \"Salsa de tomate, mozzarella, atün, cebolla, tomate natural, aceitunas y alcaparras\",\r\n  \"precio\": 11.99 \r\n}",
+                    "opcions": {
+                        "raw": {
+                        "language": "json"
+                        }
+                    }
+                },
+                "url": {
+                    "raw": "{{host}}/api/telepizza",
+                    "host": [
+                        "{{host}}"
+                    ],
+                    "path": [
+                        "api",
+                        "telepizza"
+                    ]
+                }
+            },
+            "response": []
+        },
+        {
+			"name": "Borrar Pizza",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/api/telepizza/1",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"telepizza",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+    ]
+}
+    
+    
+    
